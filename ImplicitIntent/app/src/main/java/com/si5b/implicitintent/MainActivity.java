@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
+    // try and catch itu untuk menghandle error
         btnBukaLokasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(bukaLokasi);
             }
         });
-
+    //disini tidak perlu menggunakan try and catch karena dia akan membawa ke google map nya dalam kondisi apapun
         btnBagikanTeks.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
